@@ -5,17 +5,17 @@ public class Scenes : MonoBehaviour
 {
     public void StartPlay()
     {
-        SceneManager.LoadScene("PlayScene");
+        SceneManager.LoadScene("game");
     }
 
     public void StopPlaying()
     {
-        SceneManager.LoadScene("Exit");
+        SceneManager.LoadScene("exit");
     }
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene("Intro");
+        SceneManager.LoadScene("intro");
     }
 
     public void ExitGame()
