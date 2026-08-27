@@ -23,6 +23,6 @@ public class Scenes : MonoBehaviour
         // exit the game for real play
         Application.Quit();
         //does not work in Unity since it would  lose all settings. so:
-        //UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
